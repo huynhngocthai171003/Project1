@@ -1,0 +1,285 @@
+/* HEADER */
+.category{
+  border: solid ;
+}
+.divImage{
+  text-align: center;
+}
+.flowerImage{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border:  solid lightgrey medium;
+}
+.detailImage{
+  margin-bottom: 20px;
+}
+h1{
+  margin-top: 50px;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  /* khi cuộn trang ảnh ko lấp nav */
+  /* overflow: hidden; */
+  box-shadow:1px 1px 10px rgb(241, 240, 240) ;
+  background-color: white;
+}
+.navbar{
+  /* background-image: linear-gradient(90deg, #fff6a2, #fc8a15, #AB3E16); */
+  /* background-color: burlywood; */
+}
+/* .list{
+  position: absolute;
+  right: 20px;
+} */
+.dropdown-item{
+  font-family: 'Varela Round', sans-serif;
+  font-size:15px ;
+  opacity: 0.8;
+}
+.dropdown-item:hover{
+  background-color: #ccc;
+  color: white
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ccc;
+}
+.nav-link{
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+  font-size: 17px;
+  margin: 0 5px;
+  position: relative;
+}
+.nav-link-3::before,
+.nav-link-2::after{
+  position: absolute;
+  content: "";
+  left: -5px;
+  border-left: 3px solid #ccc;
+  height: 17px;
+  top: 50%;
+  transform:translateY(-60%) ;
+}
+.nav-link:hover{
+  background-color: #ccc;
+  border-radius: 5%;
+  color: white;
+}
+.navbar-brand{
+  position: relative;
+  color: burlywood;
+  font-size: 30px;
+  /* padding-top: 20px; */
+  font-family: 'Lobster', cursive;
+  /* pointer-events:none; */
+  margin-left: 20px;
+  /* background: -webkit-linear-gradient(burlywood, #ec920b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.navbar-brand:hover{
+  color: white;
+  text-shadow: 2px 2px 4px #ec920b;
+}
+.navbar-toggler-icon:active{
+  border: rgb(204, 187, 187);
+}
+.navbar-toggler{
+  background-color: burlywood;
+}
+
+.search{
+  margin: 0 70px;
+  /* text-align: center; */
+  position: relative;
+}
+
+.icon-cart{
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  font-size: 22px;
+  color: #88746a;
+}
+.icon-bell{
+  position: absolute;
+  right: 85px;
+  top: 25px;
+  font-size: 22px;
+  color: #88746a;
+}
+.control:focus{
+  box-shadow: none;
+  border: #fc8a15 solid;
+}
+.btn{
+  background-color: #fc8a15;
+}
+.input-group-text{
+  background-color:#fc8a15 ;
+  border: #fc8a15 solid;
+}
+.icon-search{
+  font-size:15px ;
+}
+
+
+.menu{
+  box-shadow: 5px 10px 18px #888888;
+}
+
+
+/* HEADER */
+
+body{
+  color: #6F8BA4;
+  margin-top:20px;
+}
+.section {
+  padding: 100px 0;
+  position: relative;
+}
+.gray-bg {
+  background-color: #f5f5f5;
+}
+img {
+  max-width: 100%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.about-avatar img{
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #6F8BA4;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #6F8BA4;
+}
+
+.icon-profile-nav{
+  font-size: 50px;
+}
+
+/* About Me 
+---------------------*/
+.about-text h3 {
+font-size: 45px;
+font-weight: 700;
+margin: 0 0 6px;
+}
+@media (max-width: 767px) {
+.about-text h3 {
+  font-size: 35px;
+}
+}
+.about-text h6 {
+font-weight: 600;
+margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+.about-text h6 {
+  font-size: 18px;
+}
+}
+.about-text p {
+font-size: 18px;
+max-width: 450px;
+}
+.about-text p mark {
+font-weight: 600;
+color: #20247b;
+}
+
+.about-list {
+padding-top: 10px;
+}
+.about-list .media {
+padding: 5px 0;
+}
+.about-list label {
+color: #20247b;
+font-weight: 600;
+width: 88px;
+margin: 0;
+position: relative;
+}
+.about-list label:after {
+content: "";
+position: absolute;
+top: 0;
+bottom: 0;
+right: 11px;
+width: 1px;
+height: 12px;
+background: #20247b;
+-moz-transform: rotate(15deg);
+-o-transform: rotate(15deg);
+-ms-transform: rotate(15deg);
+-webkit-transform: rotate(15deg);
+transform: rotate(15deg);
+margin: auto;
+opacity: 0.5;
+}
+.about-list p {
+margin: 0;
+font-size: 15px;
+}
+
+@media (max-width: 991px) {
+.about-avatar {
+  margin-top: 30px;
+}
+}
+
+.about-section .counter {
+padding: 22px 20px;
+background: #ffffff;
+border-radius: 10px;
+box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+.about-section .counter .count-data {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.about-section .counter .count {
+font-weight: 700;
+color: #20247b;
+margin: 0 0 5px;
+}
+.about-section .counter p {
+font-weight: 600;
+margin: 0;
+}
+mark {
+  background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
+  background-size: 100% 3px;
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-color: transparent;
+  padding: 0;
+  color: currentColor;
+}
+.theme-color {
+  color: #fc5356;
+}
+.dark-color {
+  color: #20247b;
+}

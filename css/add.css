@@ -1,0 +1,19 @@
+.show-cart li {
+    display: flex;
+  }
+  /* .ucard {
+    margin-bottom: 20px;
+  } */
+  /* .card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  } */
+.modal-icon-book{
+    border-color: #bd2130;
+}
+.modal-icon-book:hover{
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}

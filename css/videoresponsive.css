@@ -1,0 +1,16 @@
+
+
+@media (min-width: 739px) and (max-width: 1300px){
+    .s1{
+        text-align: center;
+        /* width: 200px; */
+    }
+    .s3{
+        text-align: center;
+        width: 740px;
+    }
+
+    .video{
+        width: 740px;
+    }
+}

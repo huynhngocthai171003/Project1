@@ -1,0 +1,63 @@
+#book{
+    background-color: #f3a75c;
+    /* height: 1000px; */
+}
+
+.book-container{
+    
+}
+.book-row{
+    background-color: white;
+    /* height: 150px; */
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow:1px 1px 10px rgb(241, 240, 240) ;
+}
+
+.book-header{
+    text-align: center;
+    font-family: 'Praise', cursive;
+    font-size: 10vh;
+    color: white;
+    border-bottom: solid white;
+}
+.book-header1{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
+.parent input[type=text]{
+    width: 340px;
+    height: 35px;
+}
+
+input[type=submit]{
+    background-color: rgb(235, 148, 19);
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+input:required:invalid{
+    border: rgb(235, 130, 130) solid 1px;
+}
+
+.form-message{
+    color: red;
+}
+
+.book-title{
+    margin-top: 20px;
+}
+.book-name-input{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 739px) and (max-width: 1300px){
+    .col-book{
+        margin-left: 150px;
+    }
+}
